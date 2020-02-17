@@ -40,7 +40,7 @@ li {
 nav {
   position: -webkit-sticky;
   position: sticky;
-  background-color: #55b9f3;
+  background-color: #f56134;
   padding: 20px;
   border-radius: 50px;
 }
@@ -56,9 +56,9 @@ nav .links li:last-child {
 .btnLogin {
   padding: 15px 35px;
   border-radius: 50px;
-  background: #55b9f3;
-  -webkit-box-shadow: 20px 20px 60px #489dcf, -20px -20px 60px #62d5ff;
-          box-shadow: 20px 20px 60px #489dcf, -20px -20px 60px #62d5ff;
+  background: #f56134;
+  -webkit-box-shadow: 27px 27px 36px #ae4525, -27px -27px 36px #ff7d43;
+          box-shadow: 27px 27px 36px #ae4525, -27px -27px 36px #ff7d43;
 }
 
 /*----Header-----*/
