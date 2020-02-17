@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Odibee+Sans&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -99;
+}
+
+html {
+  color: white;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+
+body {
+  padding: 30px 5%;
+  width: 100%;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+// navbar
+
+nav {
+  position: sticky;
+  background-color: #55b9f3;
+  padding: 20px;
+  border-radius: 50px;
+}
+
+nav li {
+  padding: 15px 35px;
+  border-radius: 50px;
+  background: #55b9f3;
+  box-shadow: 20px 20px 60px #489dcf, -20px -20px 60px #62d5ff;
+  width: 200px;
+  i {
+    color: white;
+  }
+  a {
+    margin-left: 10px;
+    transition: all 0.3s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+    &:hover {
+      letter-spacing: 5px;
+      text-decoration: none;
+      color: white;
+    }
+  }
+}
+
+.events {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  border-radius: 20px;
+  background-color: #e0e5ec;
+  width: 200px;
+  margin: 50px 80px;
+  padding: 5px 2%;
+  h5 {
+    margin: 30px 20px;
+    color: rgb(11, 10, 29);
+    display: block;
+  }
+
+  li{
+      list-style-type: circle;
+      color: black;
+  }
+  h5 {
+    text-transform: uppercase;
+    font-size: 1.4em;
+    letter-spacing: 5px;
+    text-align: center;
+    font-family: 'Odibee Sans', cursive;
+  }
+  a {
+      margin-top: 50px;
+      display: block;
+    margin-bottom: 10px;
+    border-radius: 50px;
+    padding: 5px 20px;
+    color: rgb(24, 24, 24);
+    text-align: center;
+    background: #e0e5ec;
+    box-shadow: 9px 9px 16px #494949bb, -9px -9px 16px rgba(255, 255, 255, 0.89);
+  }
+}
+
+.categories{
+    height: 100px;
+}
+
+.card:nth-child(2){
+    background-color: #262626;
+    a, h5, li{
+        color : white
+    }
+    a{
+        border-radius: 50px;
+    background: #2d2d2d;
+    box-shadow: 9px 9px 16px rgb(27, 27, 27), -9px -9px 16px black;
+    
+    }
+}
