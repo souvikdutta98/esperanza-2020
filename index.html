@@ -13,13 +13,14 @@
 </head>
 
 <body>
-    <video autoplay muted loop id="myVideo">
-        <source src="/videos/background-video.mp4" type="video/mp4">
-    </video>
     <header class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="links">
-                <li class="btnLogin"><a href="/events.html">Events</a></li>
+        <video autoplay muted loop id="myVideo">
+            <source src="/videos/background-video.mp4" type="video/mp4">
+        </video>
+        <nav class="navbar">
+            <li class="toggle-button" id="toggle-button" style="color: black; transform: scale(2);"><i class="fa fa-bars"></i></li>
+            <div class="links" id="nav-links">
+                <li class="btnLogin"><a href="/event.html">Events</a></li>
                 <li class="btnLogin"><a href="/sponsor.html">Sponsor</a></li>
                 <li class="btnLogin"><a href="/contact">Contact</a></li>
                 <li class="btnLogin"><a href="/team.html">Team</a></li>
@@ -30,7 +31,7 @@
             <p>Cooch behar govt. engineering college <span>presents</span></p>
             <div class="imageDiv"></div>
             <p>Remaining</p>
-            <h1 id="timer"></h1>
+            <h1 id="timer">00 Days 00 Hours 00 Minutes 00 Second</h1>
         </div>
 
     </header>
@@ -50,7 +51,7 @@
                     <!-- <a href="#"><i class="fa fa-github"></i></a> -->
 
                 </div>
-                <p class="continue-to-cgec">Go to <a href="http://cgec.org.in">cgec.org.in</a></p>
+                <p class="continue-to-cgec">Go to <a href="http://cgec.org.in" target="_blank">cgec.org.in</a></p>
 
             </div>
 
@@ -102,6 +103,7 @@
             }
         }, 1000);
     </script>
+    <script src="/js/script.js"></script>
 </body>
 
 </html>
