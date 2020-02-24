@@ -13,12 +13,15 @@
 </head>
 
 <body>
+    <div id="cursor"></div>
+
     <header class="container">
         <video autoplay muted loop id="myVideo">
             <source src="/videos/background-video.mp4" type="video/mp4">
         </video>
         <nav class="navbar">
-            <li class="toggle-button" id="toggle-button" style="color: black; transform: scale(2);"><i class="fa fa-bars"></i></li>
+            <li class="toggle-button" id="toggle-button" style="color: black; transform: scale(2);"><i
+                    class="fa fa-bars"></i></li>
             <div class="links" id="nav-links">
                 <li class="btnLogin"><a href="/event.html">Events</a></li>
                 <li class="btnLogin"><a href="/sponsor.html">Sponsor</a></li>
@@ -28,7 +31,7 @@
             </div>
         </nav>
         <div class="bodyContent">
-            <p>Cooch behar govt. engineering college <span>presents</span></p>
+            <p class="main-text">Cooch behar govt. engineering college <span>presents</span></p>
             <div class="imageDiv"></div>
             <p>Remaining</p>
             <h1 id="timer">00 Days 00 Hours 00 Minutes 00 Second</h1>
@@ -102,6 +105,16 @@
                 document.getElementById("demo").innerHTML = "EXPIRED";
             }
         }, 1000);
+
+
+        const cursor = document.getElementById("cursor");
+        document.addEventListener('mousemove', (e) => {
+            let x = e.clientX;
+            let y = e.clientY;
+            cursor.style.left = x + "px";
+            cursor.style.top = y + "px";
+        })
+
     </script>
     <script src="/js/script.js"></script>
 </body>
