@@ -284,12 +284,21 @@ footer .footer-info .footer-right form button {
   -webkit-transition: 0.5s;
   transition: 0.5s;
   z-index: 99;
-  width: 105px;
-  height: 105px;
-  border: 5px dashed white;
+  width: 60px;
+  height: 60px;
+  border: 2px dashed white;
   background-color: rgba(255, 255, 255, 0.315);
-  -webkit-animation: rotate 3s linear infinite;
-          animation: rotate 3s linear infinite;
+  -webkit-animation: rotate 5s linear infinite;
+          animation: rotate 5s linear infinite;
+}
+
+.imageDiv:hover + #cursor {
+  background-color: rgba(255, 255, 255, 0);
+  border: 4px dashed white;
+  width: 310px;
+  height: 310px;
+  -webkit-animation: rotate 2s linear infinite;
+          animation: rotate 2s linear infinite;
 }
 
 @-webkit-keyframes rotate {
