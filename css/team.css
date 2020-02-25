@@ -1,0 +1,27 @@
+.pcard {
+  border-radius: 20px;
+  background-color: black;
+  height: 360px;
+  width: 250px;
+  -webkit-animation: zoomOut 0.3s cubic-bezier(1, 0, 0, 1);
+          animation: zoomOut 0.3s cubic-bezier(1, 0, 0, 1);
+  border: 3px solid white;
+  margin: 50px 60px;
+}
+
+.pcard img {
+  border-radius: 15px;
+}
+
+.pcard .container {
+  padding: 20px 5%;
+}
+
+.pcard .links {
+  padding: 0px 5%;
+}
+
+.pcard .links a {
+  margin: 5px;
+}
+/*# sourceMappingURL=team.css.map */
