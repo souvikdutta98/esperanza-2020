@@ -29,8 +29,34 @@ html {
 body {
   padding: 80px 5%;
   width: 100%;
-  background-color: #ffe53b;
-  background-image: linear-gradient(147deg, #ffe53b 0%, #ff2525 74%);
+  background: linear-gradient(-45deg, #FF4B2B, #FF416C, #23a6d5, #7F00FF);
+  background-size: 400% 400%;
+  -webkit-animation: gradient 10s ease infinite;
+          animation: gradient 10s ease infinite;
+}
+
+@-webkit-keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 a {
@@ -57,6 +83,7 @@ nav li {
   padding: 15px 35px;
   border-radius: 50px;
   background: #ff4242;
+  z-index: 99;
   -webkit-box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
           box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
   width: 200px;
@@ -78,6 +105,7 @@ nav li a:hover {
   text-decoration: none;
 }
 
+/*---------------- Events ----------------*/
 .events {
   margin-top: 50px;
   display: -webkit-box;
@@ -96,9 +124,11 @@ nav li a:hover {
 .card {
   border-radius: 10px;
   background-color: #e0e5ec;
-  width: 200px;
-  margin: 50px 80px;
+  width: 300px;
+  margin: 50px 60px;
   padding: 5px 4%;
+  -webkit-animation: zoomOut 0.8s cubic-bezier(1, 0, 0, 1);
+          animation: zoomOut 0.8s cubic-bezier(1, 0, 0, 1);
 }
 
 .card h5 {
@@ -135,6 +165,7 @@ nav li a:hover {
   display: block;
   margin-bottom: 10px;
   border-radius: 50px;
+  margin-bottom: 20px;
   padding: 5px 20px;
   color: #181818;
   text-align: center;
@@ -145,23 +176,29 @@ nav li a:hover {
 
 .categories {
   height: 100px;
+  min-height: 100px;
 }
 
-.card:nth-child(2) {
+.card:nth-child(2),
+.card:nth-child(3) {
   background-color: #262626;
 }
 
 .card:nth-child(2) a,
 .card:nth-child(2) h5,
-.card:nth-child(2) li {
+.card:nth-child(2) li,
+.card:nth-child(3) a,
+.card:nth-child(3) h5,
+.card:nth-child(3) li {
   color: white;
 }
 
-.card:nth-child(2) a {
+.card:nth-child(2) a,
+.card:nth-child(3) a {
   border-radius: 50px;
   background: #2d2d2d;
-  -webkit-box-shadow: 9px 9px 16px #1b1b1b, -9px -9px 16px black;
-          box-shadow: 9px 9px 16px #1b1b1b, -9px -9px 16px black;
+  -webkit-box-shadow: 9px 9px 16px #202020, -9px -9px 16px #181818;
+          box-shadow: 9px 9px 16px #202020, -9px -9px 16px #181818;
 }
 
 /*-----------POP UP ------------*/

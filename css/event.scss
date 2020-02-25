@@ -28,22 +28,24 @@ html {
 body {
   padding: 80px 5%;
   width: 100%;
-  background-color: #ffe53b;
-  background-image: linear-gradient(147deg, #ffe53b 0%, #ff2525 74%);
+  // background-color: #21d4fd;
+  // background-image: linear-gradient(19deg, #21d4fd 0%, #b721ff 100%);
+  background: linear-gradient(-45deg, #FF4B2B, #FF416C, #23a6d5, #7F00FF);
+  background-size: 400% 400%;
+  animation: gradient 10s ease infinite;
 }
 
-// @keyframes backColor {
-//   0% {
-//   }
-//   50% {
-//     background-color: #21d4fd;
-//     background-image: linear-gradient(19deg, #21d4fd 0%, #b721ff 100%);
-//   }
-//   100% {
-//     background-color: #08aeea;
-//     background-image: linear-gradient(0deg, #08aeea 0%, #2af598 100%);
-//   }
-// }
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
 
 a {
   color: white;
@@ -70,6 +72,7 @@ nav li {
   padding: 15px 35px;
   border-radius: 50px;
   background: #ff4242;
+  z-index: 99;
   box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
   width: 200px;
   i {
@@ -86,6 +89,7 @@ nav li {
   }
 }
 
+/*---------------- Events ----------------*/
 .events {
   margin-top: 50px;
   display: flex;
@@ -97,9 +101,10 @@ nav li {
 .card {
   border-radius: 10px;
   background-color: #e0e5ec;
-  width: 200px;
-  margin: 50px 80px;
+  width: 300px;
+  margin: 50px 60px;
   padding: 5px 4%;
+  animation: zoomOut 0.8s cubic-bezier(1, 0, 0, 1);
   h5 {
     margin: 30px 20px;
     color: #323232;
@@ -133,6 +138,7 @@ nav li {
     display: block;
     margin-bottom: 10px;
     border-radius: 50px;
+    margin-bottom: 20px;
     padding: 5px 20px;
     color: rgb(24, 24, 24);
     text-align: center;
@@ -143,9 +149,12 @@ nav li {
 
 .categories {
   height: 100px;
+  min-height: 100px;
+  // overflow-y: scroll;
 }
 
-.card:nth-child(2) {
+.card:nth-child(2),
+.card:nth-child(3) {
   background-color: #262626;
   a,
   h5,
@@ -155,7 +164,7 @@ nav li {
   a {
     border-radius: 50px;
     background: #2d2d2d;
-    box-shadow: 9px 9px 16px rgb(27, 27, 27), -9px -9px 16px black;
+    box-shadow: 9px 9px 16px #202020, -9px -9px 16px #181818;
   }
 }
 
@@ -194,7 +203,7 @@ nav li {
     &:hover {
       letter-spacing: 5px;
     }
-    &:active{
+    &:active {
       box-shadow: inset 9px 9px 16px #bec3c9, inset -9px -9px 16px #ffffff;
     }
   }
