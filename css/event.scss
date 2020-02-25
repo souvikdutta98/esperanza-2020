@@ -7,6 +7,29 @@
   outline: none;
 }
 
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background-color: #21d4fd;
+  background-image: linear-gradient(135deg, #21d4fd 0%, #b721ff 100%);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ffffff;
+}
+
 #particles-js {
   position: fixed;
   top: 0px;
@@ -30,7 +53,7 @@ body {
   width: 100%;
   // background-color: #21d4fd;
   // background-image: linear-gradient(19deg, #21d4fd 0%, #b721ff 100%);
-  background: linear-gradient(-45deg, #FF4B2B, #FF416C, #23a6d5, #7F00FF);
+  background: linear-gradient(-45deg, #ff4b2b, #ff416c, #23a6d5, #7f00ff);
   background-size: 400% 400%;
   animation: gradient 10s ease infinite;
 }
