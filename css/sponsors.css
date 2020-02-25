@@ -1,1 +1,19 @@
-/* No CSS *//*# sourceMappingURL=sponsors.css.map */
+.brand-card {
+  background-color: white;
+  height: 120px;
+  width: 120px;
+  border-radius: 10px;
+  padding: 0px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 30px 20px;
+  color: black;
+}
+/*# sourceMappingURL=sponsors.css.map */
