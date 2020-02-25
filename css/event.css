@@ -168,25 +168,59 @@ nav li a:hover {
 .pop-up {
   height: 90%;
   width: 90%;
-  background-color: white;
-  position: absolute;
+  background-color: #e0e5ec;
+  position: fixed;
   top: 5%;
   left: 5%;
   padding: 50px 5%;
   bottom: 5%;
   right: 5%;
   border-radius: 10px;
-  border: 1px solid #ff820e;
-  -webkit-box-shadow: 5px 5px 16px #ff4242;
-          box-shadow: 5px 5px 16px #ff4242;
   z-index: 10000000000;
-  -webkit-animation: zoomOut 1s;
-          animation: zoomOut 1s;
+  -webkit-animation: zoomOut 0.7s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+          animation: zoomOut 0.7s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.pop-up button {
+  display: block;
+  padding: 15px 35px;
+  border-radius: 50px;
+  background: #e0e5ec;
+  -webkit-box-shadow: 9px 9px 16px #bec3c9, -9px -9px 16px #ffffff;
+          box-shadow: 9px 9px 16px #bec3c9, -9px -9px 16px #ffffff;
+  border: none;
+  color: #001f3f;
+  font-size: 1.09em;
+  cursor: pointer;
+  -webkit-transition: all 0.4s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  transition: all 0.4s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  width: 200px;
+}
+
+.pop-up button i {
+  margin-right: 6px;
+}
+
+.pop-up button:hover {
+  letter-spacing: 5px;
+}
+
+.pop-up button:active {
+  -webkit-box-shadow: inset 9px 9px 16px #bec3c9, inset -9px -9px 16px #ffffff;
+          box-shadow: inset 9px 9px 16px #bec3c9, inset -9px -9px 16px #ffffff;
 }
 
 .pop-up iframe {
+  position: absolute;
+  left: 5%;
+  border-radius: 10px;
+  right: 5%;
+  top: 20%;
   width: 90%;
   height: 70%;
+  background: #e0e5ec;
+  -webkit-box-shadow: 20px 20px 60px #bec3c9, -20px -20px 60px #ffffff;
+          box-shadow: 20px 20px 60px #bec3c9, -20px -20px 60px #ffffff;
 }
 
 @-webkit-keyframes zoomOut {
