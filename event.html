@@ -17,86 +17,62 @@
             <li><i class="fa fa-arrow-left"></i><a href="/">Go back</a></li>
         </nav>
         <div class="events">
-
-            <div class="card" style="width: 18rem;">
-                <div class="card-body">
-                    <h5 class="card-title">Robotix</h5>
-                    <div class="categories">
-                        <li id="pop">Droid Blitz</li>
-                        <li id="pop">Robo Soccer</li>
-                    </div>
-                    <a target="_blank"
-                        href="https://docs.google.com/forms/d/e/1FAIpQLSfoAN0mrKyPeAXW95crQZhsr9DQz2Df728nY4BOBZZRCf74JA/viewform"
-                        class="btn btn-primary">Register</a>
+            <div class="card">
+                <h1>Robotix</h1>
+                <div class="contests">
+                    <button onclick="showPopUp()" style="display: block;">Droid Blitz</button>
+                    <button onclick="showPopUp()" style="display: block;">Robo Soccer</button>
                 </div>
+                <a href="/registration">Register</a>
             </div>
-            <div class="card" style="width: 18rem;">
-                <div class="card-body">
-                    <h5 class="card-title">Hackathon</h5>
-                    <div class="categories">
-                        <li id="pop">Source Code</li>
-                    </div>
-                    <a target="_blank"
-                        href="https://docs.google.com/forms/d/e/1FAIpQLSfoAN0mrKyPeAXW95crQZhsr9DQz2Df728nY4BOBZZRCf74JA/viewform"
-                        class="btn btn-primary">Register</a>
+            <div class="card">
+                <h1>Hackathon</h1>
+                <div class="contests">
+                    <button onclick="showPopUp()" style="display: block;">Source Code</button>
                 </div>
+                <a href="/registration">Register</a>
             </div>
-            <div class="card" style="width: 18rem;">
-                <div class="card-body">
-                    <h5 class="card-title">Mechanize</h5>
-                    <div class="categories">
-                        <li id="pop">Sand Rover</li>
-                        <li id="pop">Arm of Achelous</li>
-                        <li id="pop">Laws of Motion</li>
-                    </div>
-                    <a target="_blank"
-                        href="https://docs.google.com/forms/d/e/1FAIpQLSfoAN0mrKyPeAXW95crQZhsr9DQz2Df728nY4BOBZZRCf74JA/viewform"
-                        class="btn btn-primary">Register</a>
+            <div class="card">
+                <h1>Mechanize</h1>
+                <div class="contests">
+                    <button onclick="showPopUp()" style="display: block;">Sand Rover</button>
+                    <button onclick="showPopUp()" style="display: block;">Arm of Achelous</button>
+                    <button onclick="showPopUp()" style="display: block;">Laws of Motion</button>
                 </div>
+                <a href="/registration">Register</a>
             </div>
-            <div class="card" style="width: 18rem;">
-                <div class="card-body">
-                    <h5 class="card-title">Quizard</h5>
-                    <div class="categories">
-                        <li id="pop">Tech Quiz</li>
-                        <li id="pop">Math Olympiad</li>
-                    </div>
-                    <a target="_blank"
-                        href="https://docs.google.com/forms/d/e/1FAIpQLSfoAN0mrKyPeAXW95crQZhsr9DQz2Df728nY4BOBZZRCf74JA/viewform"
-                        class="btn btn-primary">Register</a>
+            <div class="card">
+                <h1>Quizard</h1>
+                <div class="contests">
+                    <button onclick="showPopUp()" style="display: block;">Tech Quiz</button>
+                    <button onclick="showPopUp()" style="display: block;">Maht Olympiad</button>
                 </div>
+                <a href="/registration">Register</a>
             </div>
-            <div class="card" style="width: 18rem;">
-                <div class="card-body">
-                    <h5 class="card-title">Gamathon</h5>
-                    <div class="categories">
-                        <li id="pop">PUBG Mobile</li>
-                        <li id="pop">Free Fire</li>
-                        <li id="pop">Mini Militia</li>
-                    </div>
-                    <a target="_blank"
-                        href="https://docs.google.com/forms/d/e/1FAIpQLSfoAN0mrKyPeAXW95crQZhsr9DQz2Df728nY4BOBZZRCf74JA/viewform"
-                        class="btn btn-primary">Register</a>
+            <div class="card">
+                <h1>Exhibitions</h1>
+                <div class="contests">
+                    <button onclick="showPopUp()" style="display: block;">Technical Projects</button>
+                    <button onclick="showPopUp()" style="display: block;">Photography</button>
                 </div>
+                <a href="/registration">Register</a>
             </div>
-            <div class="card" style="width: 18rem;">
-                <div class="card-body">
-                    <h5 class="card-title">Exhibitions</h5>
-                    <div class="categories">
-                        <li id="pop">Technical Projects</li>
-                        <li id="pop">Photography</li>
-                    </div>
-                    <a target="_blank"
-                        href="https://docs.google.com/forms/d/e/1FAIpQLSfoAN0mrKyPeAXW95crQZhsr9DQz2Df728nY4BOBZZRCf74JA/viewform"
-                        class="btn btn-primary">Register</a>
+            <div class="card">
+                <h1>Gamathon</h1>
+                <div class="contests">
+                    <button onclick="showPopUp()" style="display: block;">PUBG Mobile</button>
+                    <button onclick="showPopUp()" style="display: block;">Free Fire</button>
+                    <button onclick="showPopUp()" style="display: block;">Mini Militia</button>
+                    <button onclick="showPopUp()" style="display: block;">PES</button>
                 </div>
+                <a href="/registration">Register</a>
             </div>
         </div>
     </header>
 
 
     <section class="pop-up hide" id="pop-up">
-        <button id="go-back"><i class="fa fa-arrow-left"></i>Go back</button>
+        <button id="go-back" onclick="hidePopUp()"><i class="fa fa-arrow-left"></i>Go back</button>
         <iframe src="/events_inner/droid_blitz.html" frameborder="0"></iframe>
     </section>
 

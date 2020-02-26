@@ -122,75 +122,63 @@ nav li {
 }
 
 .card {
-  border-radius: 10px;
+  height: 300px;
+  width: 280px;
+  margin: 20px 30px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 5%;
   background-color: #e0e5ec;
-  width: 300px;
-  margin: 50px 60px;
-  padding: 5px 4%;
-  animation: zoomOut 0.8s cubic-bezier(1, 0, 0, 1);
-  h5 {
-    margin: 30px 20px;
-    color: #323232;
-    display: block;
-    text-transform: uppercase;
-    font-size: 1.4em;
-    letter-spacing: 5px;
-    text-align: center;
-    font-family: "Odibee Sans", cursive;
+  h1 {
+    color: #001f3f;
+    margin-top: 10px;
+    letter-spacing: 3px;
+    font-size: 2em;
+    font-family: "Odibee Sans";
   }
-
-  li {
-    list-style-type: none;
-    border: 1px solid #323232;
-    border-radius: 50px;
-    padding: 3px;
-    color: rgb(32, 32, 32);
-    text-align: center;
-    transition: all 0.3s ease-in-out;
-    margin: 15px 0px;
-    cursor: pointer;
+  .contests {
+    button {
+      border-radius: 20px;
+      margin: 15px 0px;
+      // border: 1px solid #001f3f;
+      border: none;
+      box-shadow: 9px 9px 16px #bec3c9, -9px -9px 16px #fff;
+      background-color: #e0e5ec;
+      width: 200px;
+      padding: 10px 5px;
+      font-size: 1em;
+      cursor: pointer;
+      transition: all 0.7s ease-in;
+      &:hover {
+        // background-color: #001f3f;
+        box-shadow: inset 9px 9px 16px #bec3c9,inset -9px -9px 16px #fff;
+        // color: #e0e5ec;
+      }
+    }
+    margin-bottom: 15px;
   }
-
-  li:hover {
-    background-color: #323232;
-    color: white;
-  }
-
+  
   a {
-    margin-top: 50px;
-    display: block;
-    margin-bottom: 10px;
-    border-radius: 50px;
-    margin-bottom: 20px;
-    padding: 5px 20px;
-    color: rgb(24, 24, 24);
-    text-align: center;
-    background: #e0e5ec;
-    box-shadow: 9px 9px 16px #494949bb, -9px -9px 16px rgba(255, 255, 255, 0.89);
+    padding: 3px 45px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    background-color: #001f3f;
+    color: whitesmoke;
+    border: 1px solid #001f3f;
+    transition: all 0.2s ease-in;
+    &:hover{
+      background-color: white;
+      color: #001f3f;
+    }
   }
 }
 
-.categories {
-  height: 100px;
-  min-height: 100px;
-  // overflow-y: scroll;
+.card:last-child{
+  height: 400px;
 }
-
-.card:nth-child(2),
-.card:nth-child(3) {
-  background-color: #262626;
-  a,
-  h5,
-  li {
-    color: white;
-  }
-  a {
-    border-radius: 50px;
-    background: #2d2d2d;
-    box-shadow: 9px 9px 16px #202020, -9px -9px 16px #181818;
-  }
-}
-
 /*-----------POP UP ------------*/
 
 .pop-up {

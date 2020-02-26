@@ -2,10 +2,10 @@ const droidBlitz = document.getElementById("pop");
 const popUp = document.querySelector("#pop-up");
 const back = document.querySelector("#go-back");
 
-droidBlitz.addEventListener("click", _ => {
+const showPopUp = (e) => {
     popUp.classList.toggle("hide");
-})
+}
 
-back.addEventListener("click", _ => {
+const hidePopUp = ()=>{
     popUp.classList.toggle("hide");
-})
+}
