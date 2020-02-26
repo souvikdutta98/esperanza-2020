@@ -137,7 +137,7 @@ nav li {
     margin-top: 10px;
     letter-spacing: 3px;
     font-size: 2em;
-    font-family: "Odibee Sans";
+    font-family: "Odibee Sans", Arial, Helvetica, sans-serif;
   }
   .contests {
     button {
@@ -154,13 +154,13 @@ nav li {
       transition: all 0.7s ease-in;
       &:hover {
         // background-color: #001f3f;
-        box-shadow: inset 9px 9px 16px #bec3c9,inset -9px -9px 16px #fff;
+        box-shadow: inset 9px 9px 16px #bec3c9, inset -9px -9px 16px #fff;
         // color: #e0e5ec;
       }
     }
     margin-bottom: 15px;
   }
-  
+
   a {
     padding: 3px 45px;
     border-radius: 20px;
@@ -169,14 +169,14 @@ nav li {
     color: whitesmoke;
     border: 1px solid #001f3f;
     transition: all 0.2s ease-in;
-    &:hover{
+    &:hover {
       background-color: white;
       color: #001f3f;
     }
   }
 }
 
-.card:last-child{
+.card:last-child {
   height: 400px;
 }
 /*-----------POP UP ------------*/
@@ -218,7 +218,7 @@ nav li {
       box-shadow: inset 9px 9px 16px #bec3c9, inset -9px -9px 16px #ffffff;
     }
   }
-  iframe {
+  .model-container {
     position: absolute;
     left: 5%;
     border-radius: 10px;

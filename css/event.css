@@ -172,7 +172,7 @@ nav li a:hover {
   margin-top: 10px;
   letter-spacing: 3px;
   font-size: 2em;
-  font-family: "Odibee Sans";
+  font-family: "Odibee Sans", Arial, Helvetica, sans-serif;
 }
 
 .card .contests {
@@ -195,8 +195,8 @@ nav li a:hover {
 }
 
 .card .contests button:hover {
-  -webkit-box-shadow: inset 9px 9px 16px #bec3c9,inset -9px -9px 16px #fff;
-          box-shadow: inset 9px 9px 16px #bec3c9,inset -9px -9px 16px #fff;
+  -webkit-box-shadow: inset 9px 9px 16px #bec3c9, inset -9px -9px 16px #fff;
+          box-shadow: inset 9px 9px 16px #bec3c9, inset -9px -9px 16px #fff;
 }
 
 .card a {
@@ -265,7 +265,7 @@ nav li a:hover {
           box-shadow: inset 9px 9px 16px #bec3c9, inset -9px -9px 16px #ffffff;
 }
 
-.pop-up iframe {
+.pop-up .model-container {
   position: absolute;
   left: 5%;
   border-radius: 10px;
