@@ -4,9 +4,10 @@ const contestDescription = document.getElementById("contest-description");
 const showPopUp = (e) => {
     popUp.classList.toggle("hide");
     data.forEach(elem => {
+        console.log(elem.eventName);
         if (e.target.innerHTML == elem.eventName) {
-            contestName.innerHTML = data[0].eventName;
-            contestDescription.innerHTML = data[0].description;
+            contestName.innerHTML = elem.eventName;
+            contestDescription.innerHTML = elem.description;
         }
         else{
             contestName.innerHTML = "Something went wrong";

@@ -1,8 +1,88 @@
-#contest-name{
-    margin-top: 20px;
+#contest-name {
+  margin: 20px 0px;
+  color: #001f3f;
+  font-family: "Odibee Sans";
+  text-align: center;
+  font-size: 2em;
+  height: 5%;
+  letter-spacing: 10px;
+}
+
+#prize-money {
+  color: black;
+  text-align: center;
+}
+
+#money {
+  color: #ff5100;
+  font-size: 1.2em;
+}
+
+#contest-body-container {
+  display: flex;
+  flex-direction: column;
+  height: 76%;
+  // border: 1px solid hsl(0, 100%, 50%);
+  overflow-y: scroll;
+  text-align: center;
+  li {
     color: #001f3f;
-    font-family: "Odibee Sans";
-    text-align: center;
-    font-size: 2em;
-    letter-spacing: 10px;
+    text-align: left;
+    margin-bottom: 30px;
+  }
+  h3 {
+    color: #001f3f;
+  }
+
+  .register-button{
+      background-color: #ff5100;
+      border-radius: 40px;
+      padding: 5px 30px;
+      margin: 0px 40px 40px 40px;
+  }
+}
+
+#contest-description {
+  color: #001f3f;
+  opacity: 0.8;
+  margin: 0px 20px 20px 20px;
+  text-align: left;
+  font-size: 0.8em;
+}
+
+.up-down-border {
+  border-bottom: 2px solid #ff5100;
+  border-top: 2px solid #ff5100;
+}
+
+#structure {
+  margin: 0px 20px 20px 20px;
+  #structure-text {
+    text-decoration: wavy;
+    margin-bottom: 15px;
+  }
+  li {
+    list-style-type: circle;
+    text-align: left;
+  }
+}
+
+#rules {
+  li {
+    list-style-type: decimal-leading-zero;
+  }
+}
+
+.video{
+    video{
+        margin: 20px 0px;
+    }
+}
+
+
+
+@media screen and (max-width: 1000px){
+    .video-js{
+        width: 100%;
+    }
 }

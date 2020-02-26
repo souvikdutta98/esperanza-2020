@@ -273,6 +273,7 @@ nav li a:hover {
   top: 20%;
   width: 90%;
   height: 70%;
+  padding: 0px 5%;
   background: #e0e5ec;
   -webkit-box-shadow: 20px 20px 60px #bec3c9, -20px -20px 60px #ffffff;
           box-shadow: 20px 20px 60px #bec3c9, -20px -20px 60px #ffffff;
