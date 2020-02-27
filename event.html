@@ -25,7 +25,7 @@
                     <button onclick="showPopUp(event)" style="display: block;">Robo Soccer</button>
                 </div>
                 <a
-                    href="https://docs.google.ceventom/forms/d/e/1FAIpQLSfoAN0mrKyPeAXW95crQZhsr9DQz2Df728nY4BOBZZRCf74JA/viewform">Register</a>
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSfoAN0mrKyPeAXW95crQZhsr9DQz2Df728nY4BOBZZRCf74JA/viewform">Register</a>
             </div>
             <div class="card">
                 <h1>Hackathon</h1>
@@ -33,7 +33,7 @@
                     <button onclick="showPopUp(event)" style="display: block;">Source Code</button>
                 </div>
                 <a
-                    href="https://docs.google.ceventom/forms/d/e/1FAIpQLSfoAN0mrKyPeAXW95crQZhsr9DQz2Df728nY4BOBZZRCf74JA/viewform">Register</a>
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSfoAN0mrKyPeAXW95crQZhsr9DQz2Df728nY4BOBZZRCf74JA/viewform">Register</a>
             </div>
             <div class="card">
                 <h1>Mechanize</h1>
@@ -78,27 +78,20 @@
     </header>
 
 
-    <section class="pop-up" id="pop-up">
+    <section class="pop-up hide" id="pop-up">
         <button id="go-back" onclick="hidePopUp()"><i class="fa fa-arrow-left"></i>Go back</button>
         <div class="model-container">
-            <h1 id="contest-name">Contest Name</h1>
-            <h3 id="prize-money">Prize Money : <span id="money">5000</span></h3>
-            <div id="contest-body-container">
-                <p id="contest-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ipsum veniam
-                    corrupti, omnis aspernatur saepe voluptatem magni blanditiis ipsam nobis impedit quisquam inventore
-                    accusamus, unde quam debitis Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio modi
-                    porro quos soluta reprehenderit dolorem deleniti fuga amet odio, alias sit animi aliquid! Facilis
-                    dolores deserunt enim minima, dolore harum. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Nulla exercitationem consequuntur officia quos qui accusantium? Deleniti nemo explicabo architecto
-                    magnam vitae tempora, blanditiis rerum accusamus. Sed praesentium dolor laudantium? Eum. veritatis
-                    nihil ipsa?</p>
+            <h1 id="contest-name"></h1>
+            <h3 class="hide" id="prize-money">Prize Money : Rs. <span class="money" id="moneyPrize"></span></h3>
+            <div class="hide" id="contest-body-container">
+                <p id="contest-description"></p>
                 <br>
-                <div id="structure" class="">
+                <div id="structure" class="hide">
                     <h3 id="structure-text" class="up-down-border">Structure</h3>
-                    <li>The first round will be conducted in CGEC during the fest. You have to made a bot which can
-                        cover some following steps. (the bot has to go through in plane path and then in water)Selected
-                        students can participate in the 2nd Round.</li>
-                    <li>The bot has to complete the paths doing some given tasks.</li>
+                    <!-- <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque animi
+                         nesciunt aperiam ea aliquam quibusdam voluptatum placeat perspiciatis? Ea, 
+                         magni incidunt corrupti assumenda cupiditate deleniti tenetur eos modi vero sequi?
+                        </li> -->
                 </div>
 
 
@@ -106,23 +99,12 @@
 
 
 
-
-
-                <div class="video">
+                <div class="video" id="video">
                     <h3 id="video-text" class="up-down-border">Demo Video</h3>
-                    <video id="my-video" class="video-js" controls preload="auto" width="50%" height="auto"
-                        poster="MY_VIDEO_POSTER.jpg" data-setup="{}">
-                        <source src="/videos/background-video.mp4" type="video/mp4" />
-                        <source src="MY_VIDEO.webm" type="video/webm" />
-                        <p class="vjs-no-js">
-                            To view this video please enable JavaScript, and consider upgrading to a
-                            web browser that
-                            <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
-                        </p>
-                    </video>
+                    <!-- <video id="video" class="video-js" controls preload="auto" controlsList="nodownload" width="50%" height="auto" data-setup="{}">
+                        <source src="/videos/background-video.mp4" id="demo-video" type="video/mp4" />
+                    </video> -->
                 </div>
-
-
 
 
 
@@ -132,16 +114,13 @@
 
 
                 <div id="rules" class="">
-                    <h3 id="rules-text" class="up-down-border">Rules</h3>
-                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut at numquam quam totam cumque quasi
+                    <h3 id="rules-text" class="up-down-border">Rules and Regulation</h3>
+                    <!-- <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut at numquam quam totam cumque quasi
                         deserunt, quos nam! Adipisci aliquid nulla, reiciendis aperiam aspernatur animi aliquam porro.
                         Consectetur, laboriosam alias.</li>
                     <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut at numquam quam totam cumque quasi
                         deserunt, quos nam! Adipisci aliquid nulla, reiciendis aperiam aspernatur animi aliquam porro.
-                        Consectetur, laboriosam alias.</li>
-                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut at numquam quam totam cumque quasi
-                        deserunt, quos nam! Adipisci aliquid nulla, reiciendis aperiam aspernatur animi aliquam porro.
-                        Consectetur, laboriosam alias.</li>
+                        Consectetur, laboriosam alias.</li> -->
                 </div>
 
                 <a href="" class="register-button up-down-border">Register</a>
