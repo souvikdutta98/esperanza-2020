@@ -16,7 +16,7 @@ const data = [
             "In case of any disrupts, the final world will remain with the organization.",
             "The decision of the judges will be final."
         ],
-        registerURL: "https://register.for/this/contest",
+        registerURL: "https://docs.google.com/forms/d/e/1FAIpQLSfoAN0mrKyPeAXW95crQZhsr9DQz2Df728nY4BOBZZRCf74JA/viewform",
         eventStructure: [
             "The first round will be conducted in CGEC  during the fest. You have to made a bot which can cover some following steps. (the bot has to go through in plane path and then in  water)Selected students can participate in the 2nd Round.",
             "The bot has to complete the paths doing some given tasks."
@@ -41,7 +41,7 @@ const data = [
             "You have to made the bot wirelessly/wired as your wish ...",
             "We will provide you full training to make this type of bots ."
         ],
-        registerURL: "https://register.for/this/contest",
+        registerURL: "https://docs.google.com/forms/d/e/1FAIpQLSfoAN0mrKyPeAXW95crQZhsr9DQz2Df728nY4BOBZZRCf74JA/viewform",
         contact: [
             {
                 name: "Suman Sarkar(ECE 3rd year )",
@@ -70,7 +70,7 @@ const data = [
             "In case of any disrupts, the final world will remain with the organization.",
             "The decision of the judges will be final."
         ],
-        registerURL: "https://register.for/this/contest",
+        registerURL: "https://docs.google.com/forms/d/e/1FAIpQLSfoAN0mrKyPeAXW95crQZhsr9DQz2Df728nY4BOBZZRCf74JA/viewform",
         eventStructure: [
             "The first round will be conducted in CGEC  during the fest. You have to made a bot which can cover some following steps. (the bot has to go through in sandy path, see saw path, inclined path, etc.)Selected students can participate in the 2nd Round.",
             "The bot has to complete the paths carrying  with 150-200gm sands."
@@ -103,7 +103,7 @@ const data = [
             "In case of any disrupts, the final world will remain with the organization.",
             "The decision of the judges will be final."
         ],
-        registerURL: "https://register.for/this/contest",
+        registerURL: "https://docs.google.com/forms/d/e/1FAIpQLSfoAN0mrKyPeAXW95crQZhsr9DQz2Df728nY4BOBZZRCf74JA/viewform",
         eventStructure: [
             "The first round will be conducted in CGEC  during the fest. You have to made a bot which can cover some following steps. (the bot has to go through in sandy path, see saw path, inclined path, etc.)Selected students can participate in the 2nd Round.",
             "The bot has to complete the paths carrying  with 150-200gm sands."
@@ -136,7 +136,7 @@ const data = [
             "In case of any disrupts, the final world will remain with the organization.",
             "The decision of the judges will be final."
         ],
-        registerURL: "https://register.for/this/contest",
+        registerURL: "https://docs.google.com/forms/d/e/1FAIpQLSfoAN0mrKyPeAXW95crQZhsr9DQz2Df728nY4BOBZZRCf74JA/viewform",
         eventStructure: [
             "The first round will be conducted in CGEC  during the fest. You have to made a  Rc Plane which can Flight in sky till our given times.Selected students can participate in the 2nd Round.",
             "The Rc Plane has to fly in sky doing some of our unique steps.(like: doing O shape in sky)"
