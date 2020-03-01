@@ -110,13 +110,17 @@ function fillPopUp(elem) {
     }
 
     /*################# Forming the Rules and Regulation element ################*/
-
+    
     elem.rules.forEach(element => {
         var node = document.createElement('li');
         var textNode = document.createTextNode(element);
         node.appendChild(textNode);
         rules.appendChild(node);
     });
+    
+    
+    /*################# Register button ################*/
 
+    registerButton.href = elem.registerURL;
 }
 

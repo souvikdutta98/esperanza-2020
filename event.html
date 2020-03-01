@@ -8,6 +8,8 @@
     <link rel="icon" type="image/png" href="/images/favicon.png">
     <link rel="stylesheet" href="css/event.css">
     <link rel="stylesheet" href="/css/pop.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+        integrity="sha256-PHcOkPmOshsMBC+vtJdVr5Mwb7r0LkSVJPlPrp/IMpU=" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
@@ -18,7 +20,7 @@
             <li><i class="fa fa-arrow-left"></i><a href="/">Go back</a></li>
         </nav>
         <div class="events">
-            <div class="card">
+            <div class="card animated jello">
                 <h1>Robotix</h1>
                 <div class="contests">
                     <button onclick="showPopUp(event)" style="display: block;">Droidblitz</button>
@@ -27,7 +29,7 @@
                 <a
                     href="https://docs.google.com/forms/d/e/1FAIpQLSfoAN0mrKyPeAXW95crQZhsr9DQz2Df728nY4BOBZZRCf74JA/viewform">Register</a>
             </div>
-            <div class="card">
+            <div class="card animated jello">
                 <h1>Hackathon</h1>
                 <div class="contests">
                     <button onclick="showPopUp(event)" style="display: block;">Source Code</button>
@@ -35,7 +37,7 @@
                 <a
                     href="https://docs.google.com/forms/d/e/1FAIpQLSfoAN0mrKyPeAXW95crQZhsr9DQz2Df728nY4BOBZZRCf74JA/viewform">Register</a>
             </div>
-            <div class="card">
+            <div class="card animated jello">
                 <h1>Mechanize</h1>
                 <div class="contests">
                     <button onclick="showPopUp(event)" style="display: block;">Sand Rover</button>
@@ -45,7 +47,7 @@
                 <a
                     href="https://docs.google.com/forms/d/e/1FAIpQLSfoAN0mrKyPeAXW95crQZhsr9DQz2Df728nY4BOBZZRCf74JA/viewform">Register</a>
             </div>
-            <div class="card">
+            <div class="card animated jello">
                 <h1>Quizard</h1>
                 <div class="contests">
                     <button onclick="showPopUp(event)" style="display: block;">Tech Quiz</button>
@@ -54,7 +56,7 @@
                 <a
                     href="https://docs.google.com/forms/d/e/1FAIpQLSfoAN0mrKyPeAXW95crQZhsr9DQz2Df728nY4BOBZZRCf74JA/viewform">Register</a>
             </div>
-            <div class="card">
+            <div class="card animated jello">
                 <h1>Exhibitions</h1>
                 <div class="contests">
                     <button onclick="showPopUp(event)" style="display: block;">Technical Projects</button>
@@ -63,7 +65,7 @@
                 <a
                     href="https://docs.google.com/forms/d/e/1FAIpQLSfoAN0mrKyPeAXW95crQZhsr9DQz2Df728nY4BOBZZRCf74JA/viewform">Register</a>
             </div>
-            <div class="card">
+            <div class="card animated jello">
                 <h1>Gamathon</h1>
                 <div class="contests">
                     <button onclick="showPopUp(event)" style="display: block;">PUBG Mobile</button>
@@ -78,11 +80,11 @@
     </header>
 
 
-    <section class="pop-up hide" id="pop-up">
+    <section class="pop-up hide animated bounceInLeft" id="pop-up">
         <button id="go-back" onclick="hidePopUp()"><i class="fa fa-arrow-left"></i>Go back</button>
         <div class="model-container">
             <h1 id="contest-name"></h1>
-            <h3 class="hide" id="prize-money">Prize Money : Rs. <span class="money" id="moneyPrize"></span></h3>
+            <h3 class="hide" id="prize-money">Prize Money : Rs. <span class="money animated flash infinite" id="moneyPrize"></span></h3>
             <div class="hide" id="contest-body-container">
                 <p id="contest-description"></p>
                 <br>
@@ -123,7 +125,7 @@
                         Consectetur, laboriosam alias.</li> -->
                 </div>
 
-                <a href="" class="register-button up-down-border">Register</a>
+                <a href="" target="_blank" class="register-button up-down-border">Register</a>
 
             </div>
         </div>
