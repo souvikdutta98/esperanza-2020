@@ -224,7 +224,7 @@ footer {
   transform: translate(-50%, -50%);
   pointer-events: none;
   border-radius: 50%;
-  transition: 0.5s;
+  // transition: 0.5s;
   z-index: 99;
   width: 60px;
   height: 60px;
@@ -239,6 +239,8 @@ footer {
   width: 310px;
   height: 310px;
   animation: rotate 2s linear infinite;
+  transition: 0.2s;
+  // animation-delay: 0.3s;
 }
 
 @keyframes rotate{
