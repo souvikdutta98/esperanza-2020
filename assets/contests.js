@@ -138,13 +138,50 @@ const data = [
         ],
         registerURL: "https://docs.google.com/forms/d/e/1FAIpQLSfoAN0mrKyPeAXW95crQZhsr9DQz2Df728nY4BOBZZRCf74JA/viewform",
         eventStructure: [
-            "The first round will be conducted in CGEC  during the fest. You have to made a  Rc Plane which can Flight in sky till our given times.Selected students can participate in the 2nd Round.",
+            "The first round will be conducted in CGEC  during the fest. You have to made a  Rc Plane which can flight in sky till our given times.Selected students can participate in the 2nd Round.",
             "The Rc Plane has to fly in sky doing some of our unique steps.(like: doing O shape in sky)"
         ],
         contact: [
             {
                 name: "Mahitosh Gorai(CE 3rd year)",
                 no: 9134283811
+            }
+        ]
+    },
+    {
+        eventName: "Maths Olympiad",
+        description: "The contest aims to foster an interest in math and improve the mathematical skills of participants through solo competitions. Give your solution with extensive knowledge pertaining a problem.",
+        videoURL: "/videos/arm of achelous.mp4",
+        prizeMoney: "1,000/-",
+        certificate: true,
+        entryFee: 30,
+        rules: [
+
+            "Each participant should bring their id card.",
+            "Participant should report 30 minutes before the event commences.",
+            "Bring your registration fees receipt.",
+            "paper will be provided for each round but come up with your pen/pencil.",
+            "30 minutes will be alloted for each round.",
+            "Feel free to ask your doubts during competition if any.",
+            "Keep your electronic gadgets outside the room and get into the event.",
+
+
+        ],
+        registerURL: "https://docs.google.com/forms/d/e/1FAIpQLSfoAN0mrKyPeAXW95crQZhsr9DQz2Df728nY4BOBZZRCf74JA/viewform",
+        eventStructure: [
+            "first round will be in MCQ format consisting of 20 questions",
+            "second phase of the event will be of pen-paper based.",
+
+        ],
+        contact: [
+            {
+                name: "Suman Dutta(ME 3rd year)",
+                no: 8972333323
+            },
+            {
+                name: "Mahitosh Gorai(CE 3rd year)",
+                no: 9134283811
+
             }
         ]
     }
