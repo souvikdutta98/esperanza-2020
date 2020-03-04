@@ -2,7 +2,7 @@ const data = [
     {
         eventName: "Droidblitz",
         description: "ESPERANZA, in association with the CGEC Student  presents Sandrover for the participants of ESPERANZA CHAPTER 3.Droid Blitz is a double-elimination event that requires participants to build wireless-remote controlled electric-powered robots that can be used to complete broken pathways and transfer packages by running on land as well as water terrains. Build an amphibious robot that can be used to perform tasks on land and water and traverse across uneven terrains.It’s the time to wake up “guess” in you.​",
-        videoURL: "/videos/droidblitz.mp4",
+        videoURL: "/videos/contest videos/droidblitz.mp4",
         prizeMoney: 5000,
         rules: [
             "You have to made this bot Wirelessly.",
@@ -35,7 +35,7 @@ const data = [
     {
         eventName: "Robo Soccer",
         description: "This is the turning point in the soccer game. In the spirit of the old fashioned board games and by taking a step forward, we have exchanged the tabletop game for the team of robot players connected with an app on a durable soccer pitch. The goal is no different from a regular soccer match: to attack, defend, strategize, and score more goals than your opponent.",
-        videoURL: "/videos/robosoccer.mp4",
+        // videoURL: "/videos/contest videos/robosoccer.mp4",
         prizeMoney: 5000,
         rules: [
             "You have to made the bot wirelessly/wired as your wish ...",
@@ -56,7 +56,7 @@ const data = [
     {
         eventName: "Sand Rover",
         description: "ESPERANZA, in association with the CGEC Student  presents Sandrover for the participants of ESPERANZA CHAPTER 3. Sand Rover is the ultimate designing challenge for you to showcase your  technical skills. It’s the time to wake up “guess” in you. ",
-        videoURL: "/videos/sandrover.mp4",
+        videoURL: "/videos/contest videos/sandrover.mp4",
         prizeMoney: 5000,
         rules: [
             "You have to make the bot Wireless.",
@@ -89,7 +89,7 @@ const data = [
     {
         eventName: "Arm of Achelous",
         description: "ESPERANZA, in association with the CGEC Student  presents Sandrover for the participants of ESPERANZA CHAPTER 3. Sand Rover is the ultimate designing challenge for you to showcase your  technical skills. It’s the time to wake up “guess” in you. ",
-        videoURL: "/videos/arm of achelous.mp4",
+        videoURL: "/videos/contest videos/arm of achelous.mp4",
         prizeMoney: 5000,
         rules: [
             "You have to make the bot Wireless.",
@@ -122,7 +122,7 @@ const data = [
     {
         eventName: "Laws of Motion",
         description: "ESPERANZA, in association with the CGEC Student  presents Laws of Motion for the participants of ESPERANZA CHAPTER 3. Laws 0f Motion is the ultimate designing challenge for you to showcase your  technical skills. It’s the time to wake up “guess” in you. ",
-        videoURL: "/videos/arm of achelous.mp4",
+        // videoURL: "/videos/contest videos/arm of achelous.mp4",
         prizeMoney: "10,000/-",
         rules: [
             "You have to make the bot Wireless.",
@@ -149,9 +149,9 @@ const data = [
         ]
     },
     {
-        eventName: "Maths Olympiad",
+        eventName: "Math Olympiad",
         description: "The contest aims to foster an interest in math and improve the mathematical skills of participants through solo competitions. Give your solution with extensive knowledge pertaining a problem.",
-        videoURL: "/videos/arm of achelous.mp4",
+        // videoURL: "/videos/contest videos/math.mkv",
         prizeMoney: "1,000/-",
         certificate: true,
         entryFee: 30,
