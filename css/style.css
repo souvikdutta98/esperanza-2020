@@ -380,6 +380,9 @@ footer .footer-info .footer-right form button {
   nav .links li:hover a {
     color: #fff;
   }
+  nav .links li:hover .fa-whatsapps {
+    color: #fff;
+  }
   .toggle-button {
     display: block;
   }
