@@ -54,6 +54,36 @@ const data = [
         ]
     },
     {
+        eventName: "Code404",
+        description: "The programming contest is a great opportunity for students that would like to major in or currently majoring in computer science, computer engineering, management information systems, information technology, or any IT related subjects to demonstrate their skills in problem solving and programming. During this contest, group of students from different institutions will compete against each other and try to solve the maximum number of problems in the shortest period of time. Each participant will analyze the problems, propose solutions and implement them. ",  
+        // videoURL: "#",
+        prizeMoney: 5000,
+        rules: [
+            "All participants will be given the same set of problems to solve.",
+            "Each problem will have a specified point value. The more difficult the problem, the more points a correct solution will receive.",
+            "Each participant will be allowed to use only a single computer and must write and test their programs on that machine, wholely within the contest room.",
+            "Contestants may write their programs in whichever language they prefer. ",
+            "A program will be considered wrong if it fails to work on one or more of the test cases. It will otherwise be considered correct for the purposes of this contest. {A program may still be wrong even if it passes all the test input cases. Every effort will be made to design test cases that will minimize the chance of missing an incorrect program.} A correct program will be awarded the full points, an incorrect one zero! In the event of a tie, programs will be awarded partial credits based on the number of tests correctly passed.",
+            "Participants may not seek hints and/or ask for leads during the contest. They may, however, submit questions about procedure and/or clarification, in writing, to the Contest Committee who will ensure that all participants receive the same information as deemed necessary.",
+            "The Contest Committee will tally the scores for each team and publish a complete list. The highest scores will be declared the winner. The Contest Committee's decision in all matters is final.",
+        ],
+        registerURL: "#",
+        contact: [
+            {
+                name: "Adhikram Maitra(CSE 3rd year )",
+                no: 8582827609
+            },
+            {
+                name: "Souvik Dutta(ECE 3rd year )",
+                no: 6289877677
+            },
+            {
+                name: "Saurav Rakshit(EE 3rd Year)",
+                no: 8017545276
+            }
+        ]
+    },
+    {
         eventName: "Sand Rover",
         description: "ESPERANZA, in association with the CGEC Student  presents Sandrover for the participants of ESPERANZA CHAPTER 3. Sand Rover is the ultimate designing challenge for you to showcase your  technical skills. It’s the time to wake up “guess” in you. ",
         videoURL: "/videos/contest videos/sandrover.mp4",
@@ -145,6 +175,60 @@ const data = [
             {
                 name: "Mahitosh Gorai(CE 3rd year)",
                 no: 9134283811
+            }
+        ]
+    },
+    {
+        eventName: "Cad-O-Mania",
+        description: 
+        "World of designing is running more than the speed of light. Now it’s time to express your imagination power. Here “Cad-O-Mania” is challenging your designing brilliance.  Now the battle has begun so challenge your mind. If you are mad for cad so get armed up with all your design weapons and tricks in this war of designing",
+        // videoURL: "#",
+        prizeMoney: "10,000/-",
+        rules: [
+            "Maximum 2 participant per team.",
+            "The team has to choose software i.e. AUTOCAD (any version) or any software.",
+            "Model will be given at the time of competition.",
+            "Use of Internet is restricted.",
+            "Participants must carry their valid college ID card.",
+            "The decision of the committee will be final this will be judged on the basis of completeness and optimum time.",
+            " The Coordinator of event reserves the right to modify the contest rules without any prior notice.",
+            "Top 3 teams will be awarded with handsome prize apart from certification.",
+            "For any clarification or further details the interested candidates can conact student coordinators.",
+            "The decision of the judges will be final."
+        ],
+        registerURL: "https://forms.gle/ESsFsocTBW2Jfevu8",
+        eventStructure: [
+            "The first round will be conducted in CGEC  during the fest. Model will be given to you and you need to finish with stipulated time.",
+            "Quite sophisticated design needs to be done for the second phase."
+        ],
+        contact: [
+            {
+                name: "Mahitosh Gorai(CE 3rd year)",
+                no: 9134283811
+            },
+            {
+                name: "Suman Dutta(ME 3rd year)",
+                no: 8972333323
+            },
+        ]
+    },
+    {
+        eventName: "Tech Quiz",
+        description: "Quiz competition is a pursuit of trivial Knowledge, encouraging students to achieve academic excellence and Increase their awareness of the world around. With science and technology growing at such an alarming rate, facts and figures just keep adding up. To match the influx of this humongous amount of data we need a brain that�s sharp as a razor and pliable as a rubber band. And the quest for the search of this perfect brain ends at technical quiz! With a wide array of questions from numerous technical topics, this is one event which will breach the boundaries of your technical lore.",
+        // videoURL: "#",
+        prizeMoney: 5000,
+        rules: [
+            "A team shall consist of maximum of THREE students.",
+            "The decision of the quiz-master will be final and will not be subjected to any change.",
+            "Participants shall not be allowed to use mobile or any other electronic instruments.",
+            "Questions shall be in the form of multiple choice, True / False statement, Visuals,Specific-answer question etc.",
+            "Decision of the judges will be final and will not be subjected to any further discussions."
+        ],
+        registerURL: "https://forms.gle/ESsFsocTBW2Jfevu8",
+        contact: [
+            {
+                name: "Souvik Dutta(CSE 3rd year )",
+                no: 9830973023
             }
         ]
     },
